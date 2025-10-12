@@ -1,0 +1,17 @@
+#include <iostream>
+#include "pelajaran.h"
+using namespace std;
+
+// Implementasi fungsi create_pelajaran
+pelajaran create_pelajaran(string namapel, string kodepel) {
+    pelajaran p;
+    p.namaMapel = namapel;
+    p.kodeMapel = kodepel;
+    return p;
+}
+
+// Implementasi prosedur tampil_pelajaran
+void tampil_pelajaran(pelajaran pel) {
+    cout << "Nama pelajaran : " << pel.namaMapel << endl;
+    cout << "Nilai : " << pel.kodeMapel << endl;
+}
